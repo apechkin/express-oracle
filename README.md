@@ -1,6 +1,7 @@
 ### Local Installation
 
-First you need to install Oracle Instant Client locally
+First you need to install Oracle Instant Client locally.
+
 How to do it, you can see here https://github.com/oracle/node-oracledb#-installation
 
 ```sh
@@ -9,6 +10,7 @@ cd express-oracle
 npm install
 ```
 In project path create .env file, with your configuration, for example
+
 ```sh
 DB_HOST_PROD=192.168.1.10
 DB_USER_PROD=YOUR_DB_USER
@@ -22,6 +24,11 @@ DB_PORT=1521
 DB_SERVICE=YOU_SERVICE_NAME
 
 NODE_PORT=1337
+```
+To test application in developments mode, run command:
+
+```sh
+npm run watch
 ```
 
 For production environments
