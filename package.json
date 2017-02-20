@@ -1,0 +1,36 @@
+{
+  "name": "express-oracle",
+  "version": "0.0.1",
+  "description": "Express with oracle db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./app/ ./config -c ./.eslintrc",
+    "watch": "nodemon bin/server.js",
+    "start": "node bin/server.js"
+  },
+  "keywords": [
+    "oracle",
+    "express",
+    "boilerplate"
+  ],
+  "author": "Anatoliy Pechkin tolya.pechkin@gmail.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "nodemailer": "^3.1.1",
+    "oracledb": "^1.12.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-node": "^4.0.1",
+    "nodemon": "^1.11.0"
+  }
+}
